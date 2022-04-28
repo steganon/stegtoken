@@ -1,0 +1,29 @@
+{
+  "name": "steganon-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
+    "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "gen": "ts-node generator/app.ts",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT"
+}
